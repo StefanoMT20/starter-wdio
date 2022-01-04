@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "outDir": "./.tsbuild/",
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "types": [
+            "node",
+            "webdriverio/async",
+            "@wdio/cucumber-framework",
+            "expect-webdriverio"
+        ],
+        "target": "ES5"
+    }
+}
